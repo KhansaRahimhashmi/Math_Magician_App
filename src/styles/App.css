@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  background-color: #f0f0f0;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  flex-direction: column; /* Adjusted to column direction */
+  align-items: center;
+}
+
+.App-header {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  background-color: #000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  position: fixed; /* Fixed positioning */
+  top: 0; /* Fixed to the top */
+  z-index: 1000; /* Adjusted z-index to be on top of other elements */
+}
+
+.nav {
+  margin: 0;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 2em;
+  margin: 10px;
+  color: #fff;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-link {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ff6347;
+}
+
+/* Add padding to the body to prevent content from being covered by the fixed navbar */
+body {
+  padding-top: 80px; /* Adjust as needed based on your navbar height */
+}

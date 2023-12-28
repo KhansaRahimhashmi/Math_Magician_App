@@ -1,0 +1,19 @@
+.loading,
+.quote {
+  color: #333; /* Darker text color for better visibility */
+  text-align: center;
+  justify-content: center;
+  margin: 200px 70px 20px 70px;
+  font-size: 24px;
+  font-weight: 600;
+  background-color: rgba(200, 200, 200, 0.5);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease;
+}
+
+.loading:hover,
+.quote:hover {
+  background-color: rgba(150, 150, 150, 0.7);
+}
